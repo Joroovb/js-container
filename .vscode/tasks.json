@@ -10,16 +10,10 @@
             "detail": "jest"
         },
         {
-            "type": "npm",
-            "script": "start",
-            "problemMatcher": [],
-            "label": "npm: start",
-            "detail": "nodemon index.js"
-        },
-        {
             "type": "shell",
             "label": "node: current file",
             "command": "node ${file}"
-        }
+        },
     ]
 }
+//remote-containers.openWorkspace

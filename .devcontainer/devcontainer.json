@@ -48,6 +48,7 @@
                     "node_modules": true,
                     ".prettierrc": true,
                     ".vscode": true,
+                    ".github": true,
                     ".devcontainer": true,
                     "start.html": true
                 },
