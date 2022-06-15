@@ -1,0 +1,24 @@
+{
+    "name": "devcontainer",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "cross-env NODE_OPTIONS=--experimental-vm-modules NODE_NO_WARNINGS=1 jest",
+        "start": "node index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "cross-env": "^7.0.3",
+        "jest": "^28.1.1",
+        "jest-environment-jsdom": "^28.1.1"
+    },
+    "prettier": {
+        "trailingComma": "none",
+        "tabWidth": 4,
+        "semi": true,
+        "singleQuote": true
+    }
+}
