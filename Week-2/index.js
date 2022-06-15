@@ -1,5 +1,5 @@
 function hoofdLetter(naam) {
-    return naam.toUpperCase();
+    return;
 }
 
 export { hoofdLetter };
